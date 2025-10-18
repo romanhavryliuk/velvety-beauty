@@ -1,11 +1,11 @@
 {
-  "name": "Velvety-Beauty",
+  "name": "belvety-beauty",
   "private": true,
   "version": "1.0.0",
   "type": "module",
   "scripts": {
     "dev": "vite",
-    "build": "vite build --base=/Velvety-Beauty/",
+    "build": "vite build --base=/velvety-beauty/",
     "preview": "vite preview"
   },
   "devDependencies": {
