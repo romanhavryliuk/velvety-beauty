@@ -4,9 +4,9 @@ button {
 }
 
 .header {
-
     display: flex;
-    justify-content: center;
+    /* justify-content: center; */
+    margin: 0 auto;
 }
 
 .header-container {
@@ -58,16 +58,22 @@ button {
 
 /* ====== Mobile - menu ====== */
 /* delet this style */
-/* .header-container {
+.header-container {
     display: none;
 }
 
-.mobile-menu {
+.mobile-container {
+    /* background: #f2f6ef; */
+    font-family: "Aileron", sans-serif;
+    font-size: 16px;
+    color: #899f87;
+    height: 78px;
+    width: 375px;
     display: flex;
     align-items: center;
     justify-content: space-between;
-    max-width: 375px;
-
+    padding: 0 16px;
+    border-bottom: 1px solid #c8d8c0;
 }
 
 
@@ -76,14 +82,89 @@ button {
     align-items: center;
     justify-content: space-between;
     width: 171px;
+
 }
 
 .mob-shop {}
 
 
-.mobile-burger {
+.mobile-close {
     display: flex;
     align-items: center;
     justify-content: center;
+    border-radius: 50%;
+    width: 32px;
+    height: 32px;
+    background-color: #ee8888;
+}
 
-} */
+.mobile-menu-logo-link {
+    fill: #899f87;
+}
+
+.mobile-logo-container {
+    max-width: 112px;
+}
+
+/* ======= Mobile Menu LIST ========= */
+.big-container-open-menu {
+    background: #f2f6ef;
+    display: flex;
+    flex-direction: column;
+}
+
+.second-menu {
+    font-family: "IvyMode", sans-serif;
+    font-weight: 300;
+    font-size: 32px;
+    line-height: 1.2;
+    color: #213721;
+    height: 100vh;
+    padding: 20px 0;
+}
+
+.second-menu-list {
+    display: flex;
+    flex-direction: column;
+    gap: 32px;
+    width: 335px;
+    margin: 0 auto;
+
+    background: #e99e9e;
+}
+
+.btn-page-list {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: transparent;
+    font-family: "IvyMode", sans-serif;
+    font-weight: 300;
+    font-size: 32px;
+    line-height: 1.2;
+    color: #213721;
+    padding: 0;
+
+}
+
+.second-login {
+    margin: 0 auto;
+    margin-top: auto;
+    padding-bottom: 20px;
+}
+
+.second-login-btn {
+    background-color: transparent;
+    font-family: "Aileron", sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 1.4;
+    color: #213721;
+
+    border: 1px solid #213721;
+    padding: 0px 32px;
+    width: 335px;
+    height: 52px;
+
+}
