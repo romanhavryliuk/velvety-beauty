@@ -1,0 +1,110 @@
+button {
+    border: none;
+    cursor: pointer;
+}
+
+.header {
+    margin: 0 auto;
+    /* width: 100%; */
+    display: flex;
+
+    justify-content: center;
+
+}
+
+.header-container {
+    background: #ee8888;
+    font-family: "Aileron", sans-serif;
+    font-size: 16px;
+    color: #f2f6ef;
+    height: 78px;
+    width: 375px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 0 auto;
+    padding: 0 16px;
+}
+
+.header-logo-container {
+    fill: #f2f6ef;
+    max-width: 112px;
+
+}
+
+.header-nav {
+    display: flex;
+}
+
+.header-nav-left {
+    /* margin-right: 16px; */
+}
+
+.header-nav-right {
+    display: flex;
+}
+
+.burger {
+    /* margin-left: 16px; */
+    border-radius: 50%;
+    width: 32px;
+    height: 32px;
+    background-color: #f2f6ef;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+
+.burger-icon {
+    fill: #000000;
+    /* Чорний колір для іконки */
+}
+
+
+.page,
+.about,
+.login {
+    display: none;
+}
+
+.header-nav-container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 171px;
+}
+
+
+/* ====== Mobile - menu ====== */
+/* delet this style */
+/* .header-container {
+    display: none;
+}
+
+.mobile-menu {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    max-width: 375px;
+
+}
+
+
+.mobile-nav-container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 171px;
+}
+
+.mob-shop {}
+
+
+.mobile-burger {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+} */
