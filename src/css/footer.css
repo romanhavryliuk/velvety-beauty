@@ -1,7 +1,9 @@
 .footer {
-    min-width: 375px;
-    max-width: 1439px;
     background-color: #f2f6ef;
+}
+
+.ft-container-size {
+    min-width: 375px;
 }
 
 .container {
@@ -139,14 +141,66 @@
 
 @media only screen and (min-width: 1440px) {
     .footer {
+        display: flex;
+        justify-content: center;
+    }
+
+    .ft-container-size {
+        position: relative;
         max-width: 1440px;
         display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+
+    .container {
+        min-width: 360px;
+        padding: 0 0 0 0;
+        padding-top: 56px;
+        padding-bottom: 40px;
+        margin: unset;
+        border-bottom: none;
+    }
+    
+    .ft-container {
+        min-width: 322px;
+        padding-top: 64px;
+    }
+
+    .ft-shop {
+        border-left: 1px solid #c8d8c0;
+        border-right: 1px solid #c8d8c0;
+    }
+
+    .ft-store {
+        border-left: 1px solid #c8d8c0;
+        position: relative;
     }
 
     .ft-credits {
+        position: absolute;
         transform: rotate(-90deg);
         padding: 10px 0px;
         width: 202px;
         height: 37px;
+        right: -80px;
+        bottom: 280px;
+        border-bottom: unset;
+    }
+
+    .site-credits {
+        padding: unset;
+    }
+
+    .ft-designer {
+        border-top: 1px solid #c8d8c0;
+        padding: 0 0;
+    }
+
+    .designer {
+        padding: 20px 80px;
+        flex-direction: unset;
+        width: 1440px;
+        justify-content: space-between;
     }
 }
