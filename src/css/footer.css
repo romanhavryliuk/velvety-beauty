@@ -1,0 +1,152 @@
+.footer {
+    min-width: 375px;
+    max-width: 1439px;
+    background-color: #f2f6ef;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 0 16px;
+    margin: 0 auto;
+    border-bottom: 1px solid #c8d8c0;
+    padding-top: 32px;
+    padding-bottom: 32px;
+}
+
+.ft-container {
+    padding-top: 64px;
+}
+
+.ft-top {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 32px;
+    margin-bottom: 64px;
+}
+
+.footer-logo {
+    display: inline-block;
+}
+
+.footer-icon-logo {
+    color: #213721;
+}
+
+.opening {
+    font-family: "Aileron", sans-serif;
+    text-align: center;
+}
+
+.opening-title {
+    font-size: 20px;
+    letter-spacing: 0.01em;
+    color: #899f87;
+}
+
+.opening-days {
+    font-size: 22px;
+    color: #3c5e39;
+}
+
+.social-list {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    gap: 18px;
+}
+
+.social-link {
+    height: 32px;
+}
+
+.ft-social-icon {
+    fill: #213721;
+}
+
+.ft-icon-fb {
+    fill: transparent;
+    stroke: #213721;
+}
+
+.nav-title {
+    font-family: "Aileron", sans-serif;
+    font-weight: 300;
+    font-size: 28px;
+    line-height: 1.1;
+    margin-bottom: 24px;
+    color: #899f87;
+}
+
+.nav-list {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 14px;
+}
+
+.ft-nav-item {
+    font-family: "Aileron", sans-serif;
+    font-size: 22px;
+}
+
+.ft-store {
+    border-bottom: none;
+}
+
+.ft-credits {
+    border-bottom: 1px solid #c8d8c0;
+}
+
+.site-credits {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 202px;
+    padding: 32px 0;
+    margin: 0 auto;
+
+    font-family: "Aileron", sans-serif;
+    font-size: 12px;
+}
+
+.designer {
+    font-family: "Aileron", sans-serif;
+    font-size: 18px;
+    text-align: center;
+    font-style: normal;
+    color: #617c5f;
+    gap: 32px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.ft-creative {
+    font-weight: 600;
+    color: #213721;
+}
+
+.legal-links {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 40px;
+    color: #213721;
+}
+
+@media only screen and (min-width: 1440px) {
+    .footer {
+        max-width: 1440px;
+        display: flex;
+    }
+
+    .ft-credits {
+        transform: rotate(-90deg);
+        padding: 10px 0px;
+        width: 202px;
+        height: 37px;
+    }
+}
