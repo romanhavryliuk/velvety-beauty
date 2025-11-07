@@ -1,9 +1,9 @@
 .sub-section {
-    min-width: 375px;
     background-color: #899f87;
 }
 
 .sub-container {
+    min-width: 375px;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -55,4 +55,22 @@
 
 .footer-icon-logo {
     fill: #213721;
+}
+
+@media only screen and (min-width: 1440px) {
+    .sub-container{
+        max-width: 1440px;
+        flex-direction: row;
+        flex-wrap: wrap;
+    }
+
+    .sub-title {
+        font-size: 56px;
+        width: 691px;
+    }
+
+    .sub-input {
+        padding: 0px 24px;
+        width: 450px;
+    }
 }
