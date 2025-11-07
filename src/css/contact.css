@@ -1,0 +1,77 @@
+.contact-section {
+    min-width: 375px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+
+    padding: 64px 16px;
+    margin: 0 auto;
+}
+
+.contact-item {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    gap: 30px;
+}
+
+.contact-icon {
+    width: 94px;
+    height: 94px;
+    flex-shrink: 0;
+}
+
+.contact-box {
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+}
+
+.contact-txt {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    gap: 4px;
+}
+
+.contact-title {
+    font-family: "Poppins", sans-serif;
+    font-weight: 300;
+    font-size: 20px;
+    color: #899f87;
+}
+
+.contact-subtitle {
+    font-family: "Bodoni Moda", sans-serif;
+    font-size: 24px;
+    line-height: 1.2;
+}
+
+.contact-link {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: row;
+    gap: 10px;
+
+    font-family: "Aileron", sans-serif;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 1.4;
+    letter-spacing: 0.01em;
+    color: #213721;
+}
+
+.contact-arrow {
+    width: 41px;
+    height: 29px;
+}
+
+.contact-line {
+    width: 1px;
+    height: 88px;
+
+    background: #d9d9d9;
+    transform: rotate(90deg);
+}
