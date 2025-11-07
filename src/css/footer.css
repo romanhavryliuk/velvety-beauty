@@ -41,7 +41,7 @@
 }
 
 .opening {
-    font-family: "Aileron", sans-serif;
+    font-family: "Poppins", sans-serif;
     text-align: center;
 }
 
@@ -78,7 +78,7 @@
 }
 
 .nav-title {
-    font-family: "Aileron", sans-serif;
+    font-family: "Poppins", sans-serif;
     font-weight: 300;
     font-size: 28px;
     line-height: 1.1;
@@ -94,7 +94,7 @@
 }
 
 .ft-nav-item {
-    font-family: "Aileron", sans-serif;
+    font-family: "Poppins", sans-serif;
     font-size: 22px;
 }
 
@@ -114,12 +114,12 @@
     padding: 32px 0;
     margin: 0 auto;
 
-    font-family: "Aileron", sans-serif;
+    font-family: "Poppins", sans-serif;
     font-size: 12px;
 }
 
 .designer {
-    font-family: "Aileron", sans-serif;
+    font-family: "Poppins", sans-serif;
     font-size: 18px;
     text-align: center;
     font-style: normal;
