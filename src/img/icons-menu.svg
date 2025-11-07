@@ -19,9 +19,9 @@
         </symbol>
 
         <symbol id="menu" viewBox="0 0 20 20" fill="none">
-            <path d="M2.5 5.8335H17.5" stroke="#213721" stroke-width="1.25" stroke-linecap="round" />
-            <path d="M2.5 10H17.5" stroke="#213721" stroke-width="1.25" stroke-linecap="round" />
-            <path d="M2.5 14.1665H17.5" stroke="#213721" stroke-width="1.25" stroke-linecap="round" />
+            <path d="M2.5 5.8335H17.5" stroke="#213721" stroke-width="2" stroke-linecap="round" />
+            <path d="M2.5 10H17.5" stroke="#213721" stroke-width="2" stroke-linecap="round" />
+            <path d="M2.5 14.1665H17.5" stroke="#213721" stroke-width="2" stroke-linecap="round" />
         </symbol>
 
 
