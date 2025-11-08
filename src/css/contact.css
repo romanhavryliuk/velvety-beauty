@@ -1,10 +1,17 @@
 .contact-section {
+    background-color: #f2f6f0;
+}
+
+.contact-box-size {
     min-width: 375px;
+    max-width: 1439px;
+
     display: flex;
     align-items: center;
     justify-content: center;
     flex-direction: column;
-
+    gap: 4px;
+    
     padding: 64px 16px;
     margin: 0 auto;
 }
@@ -13,7 +20,7 @@
     display: flex;
     align-items: center;
     flex-direction: column;
-    gap: 30px;
+    gap: 27px;
 }
 
 .contact-icon {
@@ -55,12 +62,8 @@
     flex-direction: row;
     gap: 10px;
 
-    font-family: "Aileron", sans-serif;
-    font-weight: 400;
-    font-size: 20px;
-    line-height: 1.4;
+    font-family: "Poppins", sans-serif;
     letter-spacing: 0.01em;
-    color: #213721;
 }
 
 .contact-arrow {
@@ -74,4 +77,29 @@
 
     background: #d9d9d9;
     transform: rotate(90deg);
+}
+
+@media only screen and (min-width: 1440px) {
+    .contact-box-size {
+        max-width: 1440px;
+        flex-direction: row;
+            padding: 96px 80px;
+            gap: 92px;
+    }
+
+    .contact-subtitle {
+        font-size: 30px;
+    }
+
+    .contact-link {
+        border: 1px solid #213721;
+        padding: 0px 32px;
+        margin: 0 auto;
+        height: 52px;
+        font-size: 16px;
+    }
+
+    .contact-line {
+        transform: none;
+    }
 }
