@@ -229,13 +229,19 @@
     <div class="second-menu">
       <ul class="second-menu-list">
         <li class="second-menu-item">
-          <button id="" class="btn-page-list" type="button">
-            <span>Page</span>
+          <button
+            class="btn-page-list"
+            type="button"
+            aria-expanded="false"
+            aria-controls="page-submenu"
+          >
+            <span>Pages</span>
             <svg class="btn-page-icon" width="20" height="20">
-              <use href="/img/icons.svg#close"></use>
+              <use href="/img/icons-menu.svg#icon-Vector-down"></use>
             </svg>
           </button>
-          <ul class="page-submenu">
+          <ul id="page-submenu" class="page-submenu" hidden>
+            <!-- Left column (top to bottom) -->
             <li class="page-submenu-item">
               <a href="#" class="page-submenu-link">Home</a>
             </li>
@@ -260,6 +266,8 @@
             <li class="page-submenu-item">
               <a href="#" class="page-submenu-link">Blog</a>
             </li>
+
+            <!-- Right column (top to bottom) -->
             <li class="page-submenu-item">
               <a href="#" class="page-submenu-link">Blog Details</a>
             </li>
