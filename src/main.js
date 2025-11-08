@@ -24,7 +24,9 @@ document.addEventListener('DOMContentLoaded', () => {
     const menuItem = button.closest('.second-menu-item');
     if (!menuItem) return;
 
-    let submenu = menuItem.querySelector('.page-submenu');
+    const submenu =
+      menuItem.querySelector('.page-submenu-container') ||
+      menuItem.querySelector('.page-submenu');
     if (submenu && !submenu.id) submenu.id = makeId('page-submenu');
     if (submenu) button.setAttribute('aria-controls', submenu.id);
 

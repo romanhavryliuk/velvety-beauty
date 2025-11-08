@@ -63,7 +63,7 @@ button {
 }
 
 .mobile-container {
-    /* background: #f2f6ef; */
+
     font-family: "Aileron", sans-serif;
     font-size: 16px;
     color: #899f87;
@@ -95,7 +95,11 @@ button {
     border-radius: 50%;
     width: 32px;
     height: 32px;
-    background-color: #ee8888;
+    background-color: #899f87;
+}
+
+.mobile-close-icon {
+    fill: #f2f6ef;
 }
 
 .mobile-menu-logo-link {
@@ -160,47 +164,54 @@ button {
     font-size: 16px;
     line-height: 1.4;
     color: #213721;
-
     border: 1px solid #213721;
-    padding: 0px 32px;
     width: 335px;
     height: 52px;
-
+    /* padding: 0px 32px; */
 }
 
 /* ==== copilot ==== */
-/* Потрібно редагувати оскільки все в одній колонці */
+
 .page-submenu {
     list-style: none;
-    padding: 16px;
+    /* padding: 16px; */
     margin: 0;
     background: #f2f6ef;
     border-radius: 8px;
+    max-height: 350px;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
 
-    /* Двоколонковий макет */
-    display: grid;
-    grid-template-columns: 1fr 1fr;
-    gap: 8px 24px;
-    /* вертикальний і горизонтальний відступ */
+    column-gap: 24px;
+    row-gap: 24px;
 
     /* Анімація виповзання */
-    max-height: 0;
+    /* max-height: 0;
     overflow: hidden;
     opacity: 0;
     transform: translateY(-10px);
-    transition: max-height 0.4s ease, opacity 0.3s ease, transform 0.3s ease;
-    padding: 0 16px;
-    /* Спочатку без верхнього/нижнього padding */
+    transition: max-height 0.4s ease, opacity 0.3s ease, transform 0.3s ease; */
+
+}
+
+.page-submenu-container {
+    max-height: 0;
+    overflow: hidden;
+    opacity: 0;
+    transform: translateY(-8px);
+    transition: max-height 0.35s ease, opacity 0.22s ease, transform 0.22s ease;
+    margin-top: 0;
+    background: #f2f6ef;
+    border-radius: 8px;
 }
 
 /* Коли меню відкрите */
-.second-menu-item.open .page-submenu {
-    max-height: 400px;
+.second-menu-item.open .page-submenu-container {
+    max-height: 350px;
     opacity: 1;
     transform: translateY(0);
-    margin-top: 16px;
-    padding: 16px;
-    /* Повертаємо padding коли відкрито */
+    margin-top: 32px;
 }
 
 .page-submenu-item {
@@ -209,7 +220,6 @@ button {
 
 .page-submenu-link {
     display: block;
-    padding: 8px 0;
     text-decoration: none;
     font-family: "Aileron", sans-serif;
     font-weight: 400;
