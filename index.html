@@ -1,36 +1,289 @@
 <!DOCTYPE html>
 <html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="icon" type="image/svg+xml" href="/velvety-beauty/assets/favicon-CbOi-Ja7.svg" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Velvety - Beauty and Wellness</title>
 
-<head>
-  <meta charset="UTF-8" />
-  <link rel="icon" type="image/svg+xml" href="/velvety-beauty/assets/favicon-CbOi-Ja7.svg" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Velvety - Beauty and Wellness</title>
+    <!-- modern-normalize -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/3.0.1/modern-normalize.min.css"
+    />
+    <!-- GoogleFonts -->
+    <link
+      href="https://fonts.googleapis.com/css2?family=Bodoni+Moda:opsz,wght@6..96,300;6..96,400;6..96,500;6..96,600;6..96,700&family=Poppins:wght@300;400;500;600;700&display=swap"
+      rel="stylesheet"
+    />
 
-  <!-- modern-normalize -->
-  <link rel="stylesheet"
-    href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/3.0.1/modern-normalize.min.css" />
-  <!-- GoogleFonts -->
-  <link
-    href="https://fonts.googleapis.com/css2?family=Bodoni+Moda:opsz,wght@6..96,300;6..96,400;6..96,500;6..96,600;6..96,700&family=Poppins:wght@300;400;500;600;700&display=swap"
-    rel="stylesheet">
+    <script type="module" crossorigin src="/velvety-beauty/index.js"></script>
+    <link rel="stylesheet" crossorigin href="/velvety-beauty/assets/index-DGpVQ1xM.css">
+  </head>
 
-  <script type="module" crossorigin src="/velvety-beauty/index.js"></script>
-  <link rel="stylesheet" crossorigin href="/velvety-beauty/assets/index-CCRhIlmw.css">
-</head>
+  <body>
+    <header class="header">
+  <!-- logo -->
+  <div class="header-container">
+    <div class="header-logo-container">
+      <a class="header-logo-link" href="./">
+        <svg
+          class="header-icon-logo"
+          width="112"
+          height="36"
+          aria-label="Логотип"
+        >
+          <use href="/velvety-beauty/assets/main-logo-CfojFJSH.svg#main-logo"></use>
+        </svg>
+      </a>
+    </div>
 
-<body>
-  
+    <nav class="header-nav">
+      <div class="header-nav-container">
+        <div class="header-nav-left">
+          <ul class="header-nav-list">
+            <li class="page">
+              <button
+                class="header-button"
+                id="page-toggle"
+                type="button"
+                aria-expanded="false"
+                aria-controls="pages-submenu"
+                aria-haspopup="true"
+                title="Open Pages menu"
+              >
+                <span>PAGES</span>
+                <svg
+                  class="header-icon-logo"
+                  width="20"
+                  height="20"
+                  aria-label="Логотип"
+                  aria-hidden="true"
+                >
+                  <use href="/velvety-beauty/assets/icons-menu-EVf3MwVy.svg#icon-Vector-down"></use>
+                </svg>
+              </button>
+              <!-- second menu -->
+              <div class="page-second-container">
+                <nav aria-label="Pages submenu">
+                  <ul class="pages-menu_list-desktop">
+                    <li class="pages-menu__item"><a href="/home">Home</a></li>
+                    <li class="pages-menu__item">
+                      <a href="/order-confirmation">Order Confirmation</a>
+                    </li>
 
-  <main>
-    <!-- Loads the specified .html file -->
-    
-    
-    
-    
-  </main>
+                    <li class="pages-menu__item"><a href="/about">About</a></li>
+                    <li class="pages-menu__item">
+                      <a href="/licenses">Licenses</a>
+                    </li>
 
-  <footer class="footer">
+                    <li class="pages-menu__item">
+                      <a href="/shop" class="is-active" aria-current="page"
+                        >Shop</a
+                      >
+                    </li>
+                    <li class="pages-menu__item">
+                      <a href="/changelog">Changelog</a>
+                    </li>
+
+                    <li class="pages-menu__item">
+                      <a href="/product-details">Product Details</a>
+                    </li>
+                    <li class="pages-menu__item">
+                      <a href="/contact">Contact Us</a>
+                    </li>
+
+                    <li class="pages-menu__item">
+                      <a href="/checkout">Checkout</a>
+                    </li>
+                    <li class="pages-menu__item"><a href="/404">404</a></li>
+
+                    <li class="pages-menu__item">
+                      <a href="/checkout-paypal">Checkout Paypal</a>
+                    </li>
+                    <li class="pages-menu__item"><a href="/401">401</a></li>
+
+                    <li class="pages-menu__item"><a href="/blog">Blog</a></li>
+                    <li class="pages-menu__item">
+                      <a href="/styleguide">Styleguide</a>
+                    </li>
+
+                    <li class="pages-menu__item">
+                      <a href="/blog-detail">Blog Detail</a>
+                    </li>
+                  </ul>
+                </nav>
+              </div>
+            </li>
+            <li class="shop"><a href="">SHOP</a></li>
+            <li class="about"><a href="">ABOUT</a></li>
+          </ul>
+        </div>
+        <div class="header-nav-right">
+          <ul class="header-right-list">
+            <li class="login"><a href="">LOGIN</a></li>
+            <li class="cart"><a href="">CART (0)</a></li>
+          </ul>
+        </div>
+        <button
+          class="burger"
+          type="button"
+          aria-expanded="false"
+          aria-label="Open menu"
+        >
+          <svg class="burger-icon" width="20" height="20">
+            <use href="/velvety-beauty/assets/icons-menu-EVf3MwVy.svg#menu"></use>
+          </svg>
+        </button>
+      </div>
+    </nav>
+  </div>
+
+  <!-- ===== MOBILE MENU ====== -->
+  <div class="big-container-open-menu" aria-hidden="true">
+    <div class="mobile-container">
+      <div class="mobile-menu-logo">
+        <a class="mobile-menu-logo-link" href="./">
+          <svg
+            class="mobile-icon-logo"
+            width="115"
+            height="36"
+            aria-label="Логотип"
+          >
+            <use href="/velvety-beauty/assets/main-logo-CfojFJSH.svg#main-logo"></use>
+          </svg>
+        </a>
+      </div>
+
+      <nav class="mobile-nav">
+        <div class="mobile-nav-container">
+          <div class="mobile-nav-left">
+            <ul class="mobile-nav-list">
+              <li class="page">
+                <a href="">PAGES </a>
+                <button class="mobile-button" id="submenu" type="button">
+                  <svg
+                    class="mobile-icon-logo"
+                    width="32"
+                    height="32"
+                    aria-label="Логотип"
+                  >
+                    <use href="/velvety-beauty/assets/icons-BnUo73Dn.svg#icon-Vector-down"></use>
+                  </svg>
+                </button>
+              </li>
+              <li class="mob-shop"><a href="">SHOP</a></li>
+              <li class="about"><a href="">ABOUT</a></li>
+            </ul>
+          </div>
+          <div class="mobile-nav-right">
+            <ul class="mobile-right-list">
+              <li class="login"><a href="">LOGIN</a></li>
+              <li class="cart"><a href="">CART (0)</a></li>
+            </ul>
+          </div>
+          <button class="mobile-close" type="button" aria-label="Close menu">
+            <svg class="mobile-close-icon" width="20" height="20">
+              <use href="/velvety-beauty/assets/icons-BnUo73Dn.svg#close"></use>
+            </svg>
+          </button>
+        </div>
+      </nav>
+    </div>
+    <!-- SECOND MENU -->
+    <div class="second-menu-parent">
+      <div class="second-menu">
+        <ul class="second-menu-list">
+          <!-- Press "Pages" Open sub menu in mobile -->
+          <li class="second-menu-item">
+            <button
+              class="btn-page-list"
+              type="button"
+              aria-expanded="false"
+              aria-controls="page-submenu"
+            >
+              <span>Pages</span>
+              <svg class="btn-page-icon" width="20" height="20">
+                <use href="/velvety-beauty/assets/icons-menu-EVf3MwVy.svg#icon-Vector-down"></use>
+              </svg>
+            </button>
+            <div id="page-submenu" class="page-submenu-container" hidden>
+              <ul class="page-submenu">
+                <!-- Left side -->
+                <li class="page-submenu-item">
+                  <a href="#" class="page-submenu-link">Home</a>
+                </li>
+                <li class="page-submenu-item">
+                  <a href="#" class="page-submenu-link">About</a>
+                </li>
+                <li class="page-submenu-item">
+                  <a href="#" class="page-submenu-link">Twitter</a>
+                </li>
+                <li class="page-submenu-item">
+                  <a href="#" class="page-submenu-link">Product Details</a>
+                </li>
+                <li class="page-submenu-item">
+                  <a href="#" class="page-submenu-link">Cart</a>
+                </li>
+                <li class="page-submenu-item">
+                  <a href="#" class="page-submenu-link">Checkout</a>
+                </li>
+                <li class="page-submenu-item">
+                  <a href="#" class="page-submenu-link">Checkout Paypal</a>
+                </li>
+                <li class="page-submenu-item">
+                  <a href="#" class="page-submenu-link">Blog</a>
+                </li>
+                <!-- Right side -->
+                <li class="page-submenu-item">
+                  <a href="#" class="page-submenu-link">Blog Details</a>
+                </li>
+                <li class="page-submenu-item">
+                  <a href="#" class="page-submenu-link">Order Confirmation</a>
+                </li>
+                <li class="page-submenu-item">
+                  <a href="#" class="page-submenu-link">Licenses</a>
+                </li>
+                <li class="page-submenu-item">
+                  <a href="#" class="page-submenu-link">Changelog</a>
+                </li>
+                <li class="page-submenu-item">
+                  <a href="#" class="page-submenu-link">Contact Us</a>
+                </li>
+                <li class="page-submenu-item">
+                  <a href="#" class="page-submenu-link">404</a>
+                </li>
+                <li class="page-submenu-item">
+                  <a href="#" class="page-submenu-link">401</a>
+                </li>
+                <li class="page-submenu-item">
+                  <a href="#" class="page-submenu-link">Style Guide</a>
+                </li>
+              </ul>
+            </div>
+          </li>
+          <li class="second-menu-item"><a href="">Shop</a></li>
+          <li class="second-menu-item"><a href="">About</a></li>
+          <li class="second-menu-item"><a href="">Cart(0)</a></li>
+        </ul>
+      </div>
+      <div class="second-login">
+        <button class="second-login-btn" type="button" id="login">Login</button>
+      </div>
+    </div>
+  </div>
+</header>
+
+
+    <main>
+      <!-- Loads the specified .html file -->
+      
+      
+      
+      
+    </main>
+
+    <footer class="footer">
     <div class="ft-container-size">
         <div class="container ft-container">
             <div class="ft-top">
@@ -134,6 +387,5 @@
     </div>
 </footer>
 
-</body>
-
+  </body>
 </html>
