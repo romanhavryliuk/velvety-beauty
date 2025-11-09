@@ -111,12 +111,18 @@ button {
     opacity: 0;
     /* box-shadow: -8px 0 24px rgba(0, 0, 0, 0.12); */
     z-index: 999;
+    height: 100vh;
+    overflow-y: auto;
+    /* box-sizing: border-box; */
 }
-
 
 .big-container-open-menu.open {
     transform: translateY(0%);
     opacity: 1;
+}
+
+.mobile-container {
+    flex: 0 0 auto;
 }
 
 .second-menu {
@@ -185,22 +191,19 @@ button {
 }
 
 .page-submenu-container {
-    max-height: 0;
+
     overflow: hidden;
     opacity: 0;
-    /* transform: translateY(-8px); */
-    /* transition: 0.85s ease, opacity 0.22s ease, transform 0.22s ease; */
     margin-top: 0;
     background: #f2f6ef;
     border-radius: 8px;
+    transition: opacity 180ms ease;
 }
 
 /* Коли меню відкрите */
 .second-menu-item.open .page-submenu-container {
-    max-height: 350px;
+    max-height: none;
     opacity: 1;
-    /* transform: translateY(0); */
-
     margin-top: 32px;
 }
 
@@ -258,10 +261,8 @@ button {
     }
 
 
+    .burger {
+        display: none;
+    }
 
-
-}
-
-.burger {
-    display: none;
 }
