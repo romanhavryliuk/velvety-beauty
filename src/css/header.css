@@ -27,7 +27,6 @@ button {
     max-width: 112px;
 }
 
-/* burger */
 .burger {
     display: flex;
     align-items: center;
@@ -369,11 +368,4 @@ button {
     }
 
 
-    /* Right side header nav */
-    .header-right-list {
-        display: flex;
-        align-items: center;
-        justify-content: space-between;
-        width: 160px;
-    }
 }
