@@ -238,7 +238,13 @@ button {
 
     .header-container {
         min-width: 1440px;
-        justify-content: unset;
+        margin: 0 auto;
+        padding: 0;
+        /* justify-content: unset; */
+    }
+
+    .header-logo-container {
+        margin: 20px 0px 20px 80px;
     }
 
     .page,
@@ -249,20 +255,52 @@ button {
     }
 
     .header-nav-container {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
         width: 595px;
-        ;
+        margin: 31px 80px 31px 0;
+
     }
 
     .header-nav-list {
         display: flex;
         align-items: center;
-
-        width: 595px;
+        justify-content: space-between;
     }
 
+    .header-nav-list {
+        /* justify-content: space-between; */
+        width: 270px;
+    }
+
+    .page {
+        display: flex;
+        align-items: center;
+        width: 78px;
+    }
+
+    .page-desktop {
+        margin-right: 8px;
+    }
+
+    .header-button {
+        background-color: transparent;
+        stroke: #F2F6EF;
+        fill: transparent;
+        padding: 0;
+        height: 22px;
+    }
 
     .burger {
         display: none;
     }
 
+    /* Right side header nav */
+    .header-right-list {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        width: 160px;
+    }
 }
