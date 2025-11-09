@@ -368,4 +368,11 @@ button {
     }
 
 
+    /* Right side header nav */
+    .header-right-list {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        width: 160px;
+    }
 }
