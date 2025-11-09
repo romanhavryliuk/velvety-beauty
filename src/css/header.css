@@ -8,6 +8,7 @@ button {
     margin: 0 auto;
 }
 
+/* sad */
 .header-container {
     background-color: rgba(248, 120, 120, 0.8);
     font-family: "Poppins", sans-serif;
@@ -111,9 +112,8 @@ button {
     opacity: 0;
     /* box-shadow: -8px 0 24px rgba(0, 0, 0, 0.12); */
     z-index: 999;
-    height: 100vh;
+    height: 100dvh;
     overflow-y: auto;
-    /* box-sizing: border-box; */
 }
 
 .big-container-open-menu.open {
@@ -142,6 +142,15 @@ button {
     margin: 0 auto;
 }
 
+.second-menu-parent {
+    height: 744px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    gap: 24px;
+}
+
+
 .btn-page-list {
     width: 100%;
     display: flex;
@@ -158,9 +167,9 @@ button {
 }
 
 .second-login {
-    margin: 0 auto;
-    margin-top: auto;
-    padding-bottom: 20px;
+    padding: 0 20px;
+
+
 }
 
 .second-login-btn {
@@ -188,6 +197,7 @@ button {
     flex-wrap: wrap;
     column-gap: 24px;
     row-gap: 24px;
+
 }
 
 .page-submenu-container {
@@ -241,6 +251,7 @@ button {
         margin: 0 auto;
         padding: 0;
         /* justify-content: unset; */
+        position: relative;
     }
 
     .header-logo-container {
@@ -260,7 +271,6 @@ button {
         justify-content: space-between;
         width: 595px;
         margin: 31px 80px 31px 0;
-
     }
 
     .header-nav-list {
@@ -274,27 +284,89 @@ button {
         width: 270px;
     }
 
-    .page {
-        display: flex;
-        align-items: center;
-        width: 78px;
-    }
-
-    .page-desktop {
-        margin-right: 8px;
-    }
-
     .header-button {
         background-color: transparent;
         stroke: #F2F6EF;
         fill: transparent;
         padding: 0;
-        height: 22px;
+        display: flex;
+        color: inherit;
+        gap: 8px;
     }
 
     .burger {
         display: none;
     }
+
+    /* Right side header nav */
+    .header-right-list {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        width: 160px;
+    }
+
+    /* ======= Desktop Menu LIST ========= */
+    .page-second-container {
+        position: absolute;
+        top: 100px;
+        right: 462px;
+        background: #7bb84c;
+        box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+        padding: 32px 24px;
+        min-width: 340px;
+        opacity: 0;
+        visibility: hidden;
+        transform: translateY(-10px);
+        transition: opacity 0.3s ease, transform 0.3s ease, visibility 0.3s;
+        z-index: 999;
+    }
+
+    .page-second-container.open {
+        opacity: 1;
+        visibility: visible;
+        transform: translateY(0);
+    }
+
+    /* .page:hover .page-second-container {
+        opacity: 1;
+        visibility: visible;
+        transform: translateY(0);
+    } */
+
+    .pages-menu_list-desktop {
+        list-style: none;
+        margin: 0;
+        padding: 0;
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        gap: 24px 48px;
+    }
+
+    .pages-menu__item {
+        text-align: left;
+    }
+
+    .pages-menu__item a {
+        display: block;
+        text-decoration: none;
+        font-family: "Poppins", sans-serif;
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 1.5;
+        color: #213721;
+        transition: color 0.2s ease;
+    }
+
+    .pages-menu__item a:hover,
+    .pages-menu__item a:focus {
+        background-color: #c8d8c0;
+        padding: 8px 12px;
+        border-radius: 4px;
+        margin: -8px -12px;
+
+    }
+
 
     /* Right side header nav */
     .header-right-list {

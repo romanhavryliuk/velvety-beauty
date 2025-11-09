@@ -1,10 +1,14 @@
 .footer {
+    background-color: #f2f6ef;
+}
+
+.ft-container-size {
     min-width: 375px;
-    max-width: 1439px;
     background-color: #f2f6ef;
 }
 
 .container {
+    
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -13,6 +17,7 @@
     border-bottom: 1px solid #c8d8c0;
     padding-top: 32px;
     padding-bottom: 32px;
+
 }
 
 .ft-container {
@@ -36,7 +41,7 @@
 }
 
 .opening {
-    font-family: "Aileron", sans-serif;
+    font-family: "Poppins", sans-serif;
     text-align: center;
 }
 
@@ -73,7 +78,7 @@
 }
 
 .nav-title {
-    font-family: "Aileron", sans-serif;
+    font-family: "Poppins", sans-serif;
     font-weight: 300;
     font-size: 28px;
     line-height: 1.1;
@@ -89,7 +94,7 @@
 }
 
 .ft-nav-item {
-    font-family: "Aileron", sans-serif;
+    font-family: "Poppins", sans-serif;
     font-size: 22px;
 }
 
@@ -109,12 +114,12 @@
     padding: 32px 0;
     margin: 0 auto;
 
-    font-family: "Aileron", sans-serif;
+    font-family: "Poppins", sans-serif;
     font-size: 12px;
 }
 
 .designer {
-    font-family: "Aileron", sans-serif;
+    font-family: "Poppins", sans-serif;
     font-size: 18px;
     text-align: center;
     font-style: normal;
@@ -139,14 +144,71 @@
 
 @media only screen and (min-width: 1440px) {
     .footer {
+        display: flex;
+        justify-content: center;
+    }
+
+    .ft-container-size {
+        position: relative;
         max-width: 1440px;
         display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+
+    .container {
+        min-width: 360px;
+        padding: unset;
+        padding-top: 56px;
+        padding-bottom: 40px;
+        margin: unset;
+        border-bottom: none;
+    }
+
+    .ft-top {
+        gap: 52px;
+    }
+    
+    .ft-container {
+        min-width: 322px;
+        padding-top: 64px;
+        justify-content: space-between;
+    }
+
+    .ft-shop {
+        border-left: 1px solid #c8d8c0;
+        border-right: 1px solid #c8d8c0;
+    }
+
+    .ft-store {
+        border-left: 1px solid #c8d8c0;
+        position: relative;
     }
 
     .ft-credits {
+        position: absolute;
         transform: rotate(-90deg);
         padding: 10px 0px;
         width: 202px;
         height: 37px;
+        right: -75px;
+        bottom: 280px;
+        border-bottom: unset;
+    }
+
+    .site-credits {
+        padding: unset;
+    }
+
+    .ft-designer {
+        border-top: 1px solid #c8d8c0;
+        padding: 0 0;
+    }
+
+    .designer {
+        padding: 20px 80px;
+        flex-direction: unset;
+        width: 1440px;
+        justify-content: space-between;
     }
 }
