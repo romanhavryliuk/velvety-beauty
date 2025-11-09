@@ -111,9 +111,8 @@ button {
     opacity: 0;
     /* box-shadow: -8px 0 24px rgba(0, 0, 0, 0.12); */
     z-index: 999;
-    height: 100vh;
+    height: 100dvh;
     overflow-y: auto;
-    /* box-sizing: border-box; */
 }
 
 .big-container-open-menu.open {
@@ -142,6 +141,15 @@ button {
     margin: 0 auto;
 }
 
+.second-menu-parent {
+    height: 744px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    gap: 24px;
+}
+
+
 .btn-page-list {
     width: 100%;
     display: flex;
@@ -158,9 +166,9 @@ button {
 }
 
 .second-login {
+    padding: 0 20px;
 
-    /* margin-top: 100%; */
-    padding: 20px;
+
 }
 
 .second-login-btn {
@@ -188,6 +196,7 @@ button {
     flex-wrap: wrap;
     column-gap: 24px;
     row-gap: 24px;
+
 }
 
 .page-submenu-container {
