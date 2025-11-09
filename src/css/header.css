@@ -158,9 +158,9 @@ button {
 }
 
 .second-login {
-    margin: 0 auto;
-    margin-top: auto;
-    padding-bottom: 20px;
+
+    /* margin-top: 100%; */
+    padding: 20px;
 }
 
 .second-login-btn {
@@ -274,26 +274,14 @@ button {
         width: 270px;
     }
 
-    .page {
-        display: flex;
-        align-items: center;
-        width: 78px;
-        gap: 8px;
-
-    }
-
-    .page-desktop {
-        /* margin-right: 8px; */
-
-    }
-
     .header-button {
         background-color: transparent;
         stroke: #F2F6EF;
         fill: transparent;
         padding: 0;
         display: flex;
-
+        color: inherit;
+        gap: 8px;
     }
 
     .burger {
@@ -324,11 +312,17 @@ button {
         z-index: 999;
     }
 
-    .page:hover .page-second-container {
+    .page-second-container.open {
         opacity: 1;
         visibility: visible;
         transform: translateY(0);
     }
+
+    /* .page:hover .page-second-container {
+        opacity: 1;
+        visibility: visible;
+        transform: translateY(0);
+    } */
 
     .pages-menu_list-desktop {
         list-style: none;

@@ -19,65 +19,76 @@
         <div class="header-nav-left">
           <ul class="header-nav-list">
             <li class="page">
-              <a class="page-desktop" href="">PAGES</a>
-              <button class="header-button" id="page-toggle" type="button">
+              <button
+                class="header-button"
+                id="page-toggle"
+                type="button"
+                aria-expanded="false"
+                aria-controls="pages-submenu"
+                aria-haspopup="true"
+                title="Open Pages menu"
+              >
+                <span>PAGES</span>
                 <svg
                   class="header-icon-logo"
                   width="20"
                   height="20"
                   aria-label="Логотип"
+                  aria-hidden="true"
                 >
                   <use href="/img/icons-menu.svg#icon-Vector-down"></use>
                 </svg>
               </button>
               <!-- second menu -->
               <div class="page-second-container">
-                <ul class="pages-menu_list-desktop">
-                  <li class="pages-menu__item"><a href="/home">Home</a></li>
-                  <li class="pages-menu__item">
-                    <a href="/order-confirmation">Order Confirmation</a>
-                  </li>
+                <nav aria-label="Pages submenu">
+                  <ul class="pages-menu_list-desktop">
+                    <li class="pages-menu__item"><a href="/home">Home</a></li>
+                    <li class="pages-menu__item">
+                      <a href="/order-confirmation">Order Confirmation</a>
+                    </li>
 
-                  <li class="pages-menu__item"><a href="/about">About</a></li>
-                  <li class="pages-menu__item">
-                    <a href="/licenses">Licenses</a>
-                  </li>
+                    <li class="pages-menu__item"><a href="/about">About</a></li>
+                    <li class="pages-menu__item">
+                      <a href="/licenses">Licenses</a>
+                    </li>
 
-                  <li class="pages-menu__item">
-                    <a href="/shop" class="is-active" aria-current="page"
-                      >Shop</a
-                    >
-                  </li>
-                  <li class="pages-menu__item">
-                    <a href="/changelog">Changelog</a>
-                  </li>
+                    <li class="pages-menu__item">
+                      <a href="/shop" class="is-active" aria-current="page"
+                        >Shop</a
+                      >
+                    </li>
+                    <li class="pages-menu__item">
+                      <a href="/changelog">Changelog</a>
+                    </li>
 
-                  <li class="pages-menu__item">
-                    <a href="/product-details">Product Details</a>
-                  </li>
-                  <li class="pages-menu__item">
-                    <a href="/contact">Contact Us</a>
-                  </li>
+                    <li class="pages-menu__item">
+                      <a href="/product-details">Product Details</a>
+                    </li>
+                    <li class="pages-menu__item">
+                      <a href="/contact">Contact Us</a>
+                    </li>
 
-                  <li class="pages-menu__item">
-                    <a href="/checkout">Checkout</a>
-                  </li>
-                  <li class="pages-menu__item"><a href="/404">404</a></li>
+                    <li class="pages-menu__item">
+                      <a href="/checkout">Checkout</a>
+                    </li>
+                    <li class="pages-menu__item"><a href="/404">404</a></li>
 
-                  <li class="pages-menu__item">
-                    <a href="/checkout-paypal">Checkout Paypal</a>
-                  </li>
-                  <li class="pages-menu__item"><a href="/401">401</a></li>
+                    <li class="pages-menu__item">
+                      <a href="/checkout-paypal">Checkout Paypal</a>
+                    </li>
+                    <li class="pages-menu__item"><a href="/401">401</a></li>
 
-                  <li class="pages-menu__item"><a href="/blog">Blog</a></li>
-                  <li class="pages-menu__item">
-                    <a href="/styleguide">Styleguide</a>
-                  </li>
+                    <li class="pages-menu__item"><a href="/blog">Blog</a></li>
+                    <li class="pages-menu__item">
+                      <a href="/styleguide">Styleguide</a>
+                    </li>
 
-                  <li class="pages-menu__item">
-                    <a href="/blog-detail">Blog Detail</a>
-                  </li>
-                </ul>
+                    <li class="pages-menu__item">
+                      <a href="/blog-detail">Blog Detail</a>
+                    </li>
+                  </ul>
+                </nav>
               </div>
             </li>
             <li class="shop"><a href="">SHOP</a></li>
@@ -126,7 +137,7 @@
             <ul class="mobile-nav-list">
               <li class="page">
                 <a href="">PAGES </a>
-                <button class="mobile-button" id="page-toggle" type="button">
+                <button class="mobile-button" id="submenu" type="button">
                   <svg
                     class="mobile-icon-logo"
                     width="32"
@@ -155,9 +166,10 @@
         </div>
       </nav>
     </div>
-    <!-- список в меню посилань -->
+    <!-- SECOND MENU -->
     <div class="second-menu">
       <ul class="second-menu-list">
+        <!-- Press "Pages" Open sub menu in mobile -->
         <li class="second-menu-item">
           <button
             class="btn-page-list"
