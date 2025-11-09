@@ -9,7 +9,7 @@ button {
 }
 
 .header-container {
-    background-color: rgba(248, 120, 120, 0.5);
+    background-color: rgba(248, 120, 120, 0.8);
     font-family: "Poppins", sans-serif;
     font-size: 16px;
     color: #f2f6ef;
@@ -235,5 +235,33 @@ button {
 
     .header-container {
         min-width: 1440px;
+        justify-content: unset;
     }
+
+    .page,
+    .about,
+    .login {
+
+        display: block;
+    }
+
+    .header-nav-container {
+        width: 595px;
+        ;
+    }
+
+    .header-nav-list {
+        display: flex;
+        align-items: center;
+
+        width: 595px;
+    }
+
+
+
+
+}
+
+.burger {
+    display: none;
 }

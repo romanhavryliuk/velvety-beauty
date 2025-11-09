@@ -1,7 +1,3 @@
-// main.js — menu behavior for header
-// - page submenu toggles (second-menu .btn-page-list)
-// - mobile slide-out menu toggles (burger / mobile-close)
-
 document.addEventListener('DOMContentLoaded', () => {
   // ---------- Page submenu (existing second-menu) ----------
   const submenuButtons = document.querySelectorAll('.btn-page-list');
