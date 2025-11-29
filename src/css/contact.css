@@ -1,0 +1,103 @@
+.contact-box-size {
+    min-width: 375px;
+    max-width: 1439px;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    gap: 4px;
+    
+    padding: 64px 16px;
+    margin: 0 auto;
+}
+
+.contact-item {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    gap: 32px;
+}
+
+.contact-icon {
+    /* flex-shrink: 0; */
+}
+
+.contact-box {
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+}
+
+.contact-txt {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    gap: 4px;
+}
+
+.contact-title {
+    font-family: "Poppins", sans-serif;
+    font-weight: 300;
+    font-size: 20px;
+    color: #899f87;
+}
+
+.contact-subtitle {
+    font-family: "Bodoni Moda", sans-serif;
+    font-size: 24px;
+    line-height: 1.2;
+}
+
+.contact-link {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: row;
+    gap: 10px;
+
+    font-family: "Poppins", sans-serif;
+    letter-spacing: 0.01em;
+}
+
+.contact-arrow {
+    width: 41px;
+    height: 29px;
+}
+
+.contact-line {
+    width: 1px;
+    height: 88px;
+
+    background: #d9d9d9;
+    transform: rotate(90deg);
+}
+
+@media only screen and (min-width: 1440px) {
+    .contact-section {
+        background-color: #f2f6f0;
+    }
+    .contact-box-size {
+        max-width: 1440px;
+        flex-direction: row;
+        padding: 96px 80px;
+        gap: 92px;
+    }
+
+    .contact-subtitle {
+        font-size: 30px;
+        font-weight: 300;
+    }
+
+    .contact-link {
+        border: 1px solid #213721;
+        padding: 0px 32px;
+        margin: 0 auto;
+        height: 52px;
+        font-size: 16px;
+    }
+
+    .contact-line {
+        transform: none;
+    }
+}
