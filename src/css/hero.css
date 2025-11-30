@@ -1,15 +1,12 @@
 .hero {
-  background-color: #5cb0f573;
+  /* background-color: #5cb0f573; */
   display: flex;
   align-items: center;
   justify-content: flex-start;
   flex-direction: column;
-  gap: 32px;
   padding: 28px 16px 32px;
   width: 375px;
-  /* height: 744px; */
   margin: 0 auto;
-  background-image: url(/img/hero/bg-hero-mob.webp);
 }
 
 .hero-content {
@@ -52,4 +49,9 @@
 .hero-dots {
 }
 .dot {
+  background: inherit;
+}
+
+.dot-vs {
+  fill: #e4ece0;
 }
