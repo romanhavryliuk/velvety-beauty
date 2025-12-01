@@ -294,5 +294,10 @@
             <path stroke-linejoin="miter" stroke-linecap="round" stroke-miterlimit="4" stroke-width="2"
                 d="M4 22.666h24"></path>
         </symbol>
+        <symbol id="background" viewBox="0 0 20 32">
+            <path fill="#e4ece0" style="fill: var(--color1, #e4ece0)"
+                d="M20.403 16c0 8.837-4.567 16-10.202 16s-10.202-7.163-10.202-16c0-8.837 4.567-16 10.202-16s10.202 7.163 10.202 16z">
+            </path>
+        </symbol>
     </defs>
 </svg>
