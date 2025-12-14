@@ -1,0 +1,136 @@
+.hero {
+  /* background-color: #5cb0f573; */
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  flex-direction: column;
+  padding: 28px 16px 32px;
+  width: 375px;
+  margin: 0 auto;
+}
+
+.hero-content {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  gap: 32px;
+}
+.hero-title {
+  font-family: 'Bodoni Moda', sans-serif;
+  font-weight: 300;
+  font-size: 48px;
+  line-height: 1.1;
+  text-align: center;
+  color: #f2f6ef;
+}
+.hero-cta {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: row;
+  gap: 10px;
+  background: #f2f6ef;
+  padding: 15px 32px;
+  width: 190px;
+  height: 52px;
+}
+.hero-cta-text {
+  font-family: 'Poppins', sans-serif;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.4;
+  color: #213721;
+}
+.hero-cta-icon {
+  /* fill: #213721; */
+  /* stroke: #213721; */
+}
+
+.dot {
+  background: inherit;
+}
+
+.dot-vs {
+  fill: #e4ece0;
+}
+.active {
+  fill: #899f87;
+}
+.hero-dots .dot:first-child .dot-vs {
+  fill: #899f87; /* для заливки */
+}
+.arrorw-btw {
+  display: none;
+}
+/* ==== DESKTOP HERO === */
+@media only screen and (min-width: 1440px) {
+  .hero {
+    width: 1440px;
+    flex-direction: row-reverse;
+    justify-content: flex-end;
+    position: relative;
+  }
+  .hero-cta {
+    padding: 20px 32px;
+    width: 356px;
+    height: 72px;
+  }
+  .hero-cta-text {
+    font-size: 22px;
+  }
+  .hero-cta-icon {
+    width: 41px;
+    height: 29px;
+  }
+  .dot {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .hero-dots {
+    position: absolute;
+    top: 292px;
+    left: 68px;
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+  }
+  .hero-title {
+    font-size: 108px;
+    text-align: left;
+  }
+  .hero-content {
+    position: absolute;
+    top: 90px;
+    right: 70px;
+    width: 806px;
+    align-items: flex-start;
+  }
+  .hero-product {
+    /* position: relative; */
+    /* width: 1416px; */
+    height: 944px;
+  }
+  .hero-product-image {
+    z-index: 20;
+    position: absolute;
+    top: -50px;
+    left: 50px;
+    width: 500px;
+    height: 910px;
+  }
+  .hero-cta {
+    margin-top: 90px;
+  }
+  .arrorw-btw {
+    fill: #e4ece0;
+    background-color: inherit;
+  }
+  .arrorw-btw {
+    display: unset;
+  }
+  .active {
+    fill: #3c5e39;
+  }
+}
