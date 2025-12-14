@@ -54,7 +54,15 @@
 .dot-vs {
   fill: #e4ece0;
 }
-
+.active {
+  fill: #899f87;
+}
+.hero-dots .dot:first-child .dot-vs {
+  fill: #899f87; /* для заливки */
+}
+.arrorw-btw {
+  display: none;
+}
 /* ==== DESKTOP HERO === */
 @media only screen and (min-width: 1440px) {
   .hero {
@@ -75,12 +83,18 @@
     width: 41px;
     height: 29px;
   }
+  .dot {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
   .hero-dots {
     position: absolute;
     top: 292px;
     left: 68px;
     display: flex;
     flex-direction: column;
+    gap: 12px;
   }
   .hero-title {
     font-size: 108px;
@@ -95,7 +109,7 @@
   }
   .hero-product {
     /* position: relative; */
-    width: 1416px;
+    /* width: 1416px; */
     height: 944px;
   }
   .hero-product-image {
@@ -105,5 +119,18 @@
     left: 50px;
     width: 500px;
     height: 910px;
+  }
+  .hero-cta {
+    margin-top: 90px;
+  }
+  .arrorw-btw {
+    fill: #e4ece0;
+    background-color: inherit;
+  }
+  .arrorw-btw {
+    display: unset;
+  }
+  .active {
+    fill: #3c5e39;
   }
 }

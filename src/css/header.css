@@ -8,7 +8,7 @@ button {
   background-image: url(/img/hero/bg-hero-mob.webp);
   background-size: cover;
   width: 375px;
-  height: 823px; /* height bg image  */
+  height: 1050px; /* height bg image  */
   z-index: -10;
 }
 
