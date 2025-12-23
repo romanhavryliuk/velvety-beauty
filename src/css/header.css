@@ -241,19 +241,22 @@ button {
 /* ====== Desktop - menu ====== */
 
 @media only screen and (min-width: 1440px) {
+  .header {
+    position: relative;
+  }
   .wrapper-bg {
     background-image: url(/img/hero/bg-hero-desk.webp);
-    width: 50%;
+    width: 730px;
     height: 824px; /* height bg image  */
-    left: 50%;
+    right: 0;
+    position: absolute;
     top: -1px;
   }
   .bg-header-left {
     background-color: #899f87;
     position: absolute;
-    width: 50%;
+    width: 710px;
     height: 824px; /* height bg image  */
-    right: 50%;
     z-index: -10;
   }
 

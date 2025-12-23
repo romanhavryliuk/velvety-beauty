@@ -1,41 +1,43 @@
 <!DOCTYPE html>
 <html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="icon" type="image/svg+xml" href="./public/favicon.svg" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Velvety - Beauty and Wellness</title>
 
-<head>
-  <meta charset="UTF-8" />
-  <link rel="icon" type="image/svg+xml" href="./public/favicon.svg" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Velvety - Beauty and Wellness</title>
+    <!-- modern-normalize -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/3.0.1/modern-normalize.min.css"
+    />
+    <!-- GoogleFonts -->
+    <link
+      href="https://fonts.googleapis.com/css2?family=Bodoni+Moda:opsz,wght@6..96,300;6..96,400;6..96,500;6..96,600;6..96,700&family=Poppins:wght@300;400;500;600;700&display=swap"
+      rel="stylesheet"
+    />
 
-  <!-- modern-normalize -->
-  <link rel="stylesheet"
-    href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/3.0.1/modern-normalize.min.css" />
-  <!-- GoogleFonts -->
-  <link
-    href="https://fonts.googleapis.com/css2?family=Bodoni+Moda:opsz,wght@6..96,300;6..96,400;6..96,500;6..96,600;6..96,700&family=Poppins:wght@300;400;500;600;700&display=swap"
-    rel="stylesheet" />
+    <link rel="stylesheet" href="./css/styles.css" />
+  </head>
 
-  <link rel="stylesheet" href="./css/styles.css" />
-</head>
+  <body>
+    <load src="./partials/header.html" />
 
-<body>
-  <load src="./partials/header.html" />
+    <main>
+      <!-- Loads the specified .html file -->
+      <load src="./partials/hero.html" />
+      <load src="./partials/ingredients.html" />
+      <load src="./partials/featured.html" />
+      <load src="./partials/about.html" />
+      <load src="./partials/testimonials.html" />
+      <load src="./partials/contact.html" />
+      <load src="./partials/subscribe.html" />
+    </main>
 
-  <main>
-    <!-- Loads the specified .html file -->
-    <load src="./partials/hero.html" />
-    <load src="./partials/featured.html" />
-    <load src="./partials/about.html" />
-    <load src="./partials/testimonials.html" />
-    <load src="./partials/contact.html" />
-    <load src="./partials/subscribe.html" />
-  </main>
+    <load src="./partials/footer.html" />
 
-  <load src="./partials/footer.html" />
-
-  <script type="module" src="./main.js"></script>
-  <script type="module" src="./js/header.js"></script>
-  <script type="module" src="./js/modal.js"></script>
-</body>
-
+    <script type="module" src="./main.js"></script>
+    <script type="module" src="./js/header.js"></script>
+    <script type="module" src="./js/modal.js"></script>
+  </body>
 </html>
