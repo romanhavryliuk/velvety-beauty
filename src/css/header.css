@@ -8,7 +8,8 @@ button {
   background-image: url(/img/hero/bg-hero-mob.webp);
   background-size: cover;
   width: 375px;
-  height: 1050px; /* height bg image  */
+  /* height: 1050px; */
+  height: 812px;
   z-index: -10;
 }
 
@@ -249,14 +250,13 @@ button {
     width: 730px;
     height: 824px; /* height bg image  */
     right: 0;
-    position: absolute;
-    top: -1px;
+    top: -2px;
   }
   .bg-header-left {
     background-color: #899f87;
     position: absolute;
     width: 710px;
-    height: 824px; /* height bg image  */
+    height: 822px; /* height bg image  */
     z-index: -10;
   }
 
