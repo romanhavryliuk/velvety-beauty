@@ -1,0 +1,167 @@
+.section-about {
+  background-color: #f2f6ef;
+}
+
+.about_container {
+  padding: 64px 16px;
+  display: flex;
+  flex-direction: column;
+  gap: 64px;
+  width: 375px;
+  margin: 0 auto;
+}
+.about_top {
+  display: flex;
+  flex-direction: column;
+  gap: 32px;
+}
+.about_left {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+  flex-direction: column;
+  gap: 26px;
+}
+.about_label {
+  font-family: var(--font-family);
+  font-weight: 300;
+  font-size: 24px;
+  line-height: 1.1;
+  color: #899f87;
+}
+.about_title {
+  font-family: var(--second-family);
+  font-weight: 300;
+  font-size: 40px;
+  line-height: 1.2;
+  letter-spacing: 0.01em;
+}
+.about_right {
+  font-family: var(--font-family);
+  font-weight: 300;
+  font-size: 20px;
+  line-height: 1.4;
+  color: #3c5e39;
+  display: flex;
+  flex-direction: column;
+
+  gap: 24px;
+  width: 343px;
+}
+.about_text {
+}
+.about_divider {
+  border: 1px solid #c8d8c0;
+  width: 343px;
+  height: 0px;
+}
+.about_bottom {
+}
+.about_seen {
+  font-family: var(--font-family);
+  font-weight: 300;
+  font-size: 24px;
+  line-height: 1.1;
+  color: #899f87;
+  margin-bottom: 40px;
+}
+.about_list-logos {
+  /* display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: flex-start;
+  flex-direction: row; */
+  /* list-style: none; */
+  /* margin: 0; */
+  /* padding: 0; */
+
+  display: grid;
+  grid-template-columns: repeat(2, max-content);
+  column-gap: 24px;
+  row-gap: 40px; /* підбери під макет */
+  justify-content: space-between; /* розкидає 2 колонки по краях */
+  align-items: center;
+}
+.vogue {
+  width: 137px;
+  height: 35px;
+}
+.forbes {
+  width: 150px;
+  height: 37px;
+}
+.thought-catalog {
+  width: 142px;
+  height: 79px;
+}
+.womens-health {
+  width: 171px;
+  height: 35px;
+}
+.wwd {
+  width: 147px;
+  height: 67px;
+}
+/* === DESCTOP === */
+
+@media only screen and (min-width: 1440px) {
+  .about_container {
+    gap: 96px;
+    width: 1440px;
+    padding: 96px 80px;
+  }
+  .about_left {
+    width: 616px;
+    gap: 16px;
+  }
+  .about_top {
+    display: flex;
+    flex-direction: row;
+    gap: 26px;
+  }
+  .about_right {
+    width: 638px;
+    font-size: 20px;
+  }
+  .about_divider {
+    width: 1280px;
+  }
+  .about_label {
+    font-size: 28px;
+  }
+  .about_title {
+    font-size: 56px;
+  }
+  .about_list-logos {
+    display: flex;
+    column-gap: 0;
+  }
+  .about_seen {
+    font-size: 28px;
+  }
+  .about_bottom {
+    width: 1280px;
+  }
+
+  /* --- SVG LIST--- */
+  .vogue {
+    width: 218px;
+    height: 56px;
+  }
+  .forbes {
+    width: 326px;
+    height: 58px;
+  }
+  .thought-catalog {
+    width: 180px;
+    height: 100px;
+  }
+  .womens-health {
+    width: 273px;
+    height: 56px;
+  }
+  .wwd {
+    width: 193px;
+    height: 88px;
+  }
+}
