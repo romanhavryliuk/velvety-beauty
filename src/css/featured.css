@@ -1,0 +1,122 @@
+.featured {
+  display: flex;
+  flex-direction: column;
+  width: 375px;
+  margin: 0 auto;
+  background: #f2f6ef;
+  padding: 64px 0;
+  gap: 48px;
+}
+.featured-cont {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 0 16px;
+  /* padding-top: 64px; */
+  gap: 16px;
+}
+.featured-tittle-smal {
+  font-family: var(--font-family);
+  font-weight: 300;
+  font-size: 24px;
+  line-height: 1.1;
+  text-align: center;
+  color: #899f87;
+}
+.featured-title-big {
+  font-family: var(--second-family);
+  font-weight: 300;
+  font-size: 40px;
+  line-height: 1.2;
+  letter-spacing: 0.01em;
+  text-align: center;
+  color: #213721;
+}
+.featured-product-cont {
+  display: flex;
+  justify-content: center;
+}
+
+.featured-list {
+}
+.featured-item {
+  padding: 20px;
+  border-top: 1px solid #c8d8c0;
+}
+.featured-item:last-child {
+  border-bottom: 1px solid #c8d8c0;
+}
+.featured-prod-img {
+}
+.featured-info {
+  display: flex;
+  flex-direction: column;
+  margin-top: 24px;
+  gap: 8px;
+}
+.featured-title {
+  font-family: var(--font-family);
+  font-weight: 300;
+  font-size: 24px;
+  line-height: 1.1;
+}
+.featured-sp-rat {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+}
+.featured-span {
+  font-weight: 700;
+  font-size: 22px;
+  line-height: 1.4;
+}
+.featured-rat-val {
+  font-weight: 400;
+  font-size: 22px;
+  line-height: 1.4;
+  color: #3c5e39;
+  margin-left: 8px;
+}
+.featured-rating {
+  display: flex;
+}
+.featured-rating-item {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.featured-icon {
+}
+.featured-icon-star {
+  fill: #3c5e39;
+}
+
+@media only screen and (min-width: 1440px) {
+  .featured {
+    width: 1440px;
+    padding-top: 96px;
+    padding-bottom: 0;
+  }
+  .featured-tittle-smal {
+    font-size: 28px;
+  }
+  .featured-title-big {
+    font-size: 56px;
+    width: 720px;
+  }
+  .featured-list {
+    display: flex;
+    flex-direction: row;
+  }
+  .featured-item {
+    border-bottom: 1px solid #c8d8c0;
+  }
+  .featured-item:nth-child(2) {
+    border-right: 1px solid #c8d8c0;
+    border-left: 1px solid #c8d8c0;
+  }
+  .featured-sp-rat {
+    flex-direction: row;
+    justify-content: space-between;
+  }
+}
