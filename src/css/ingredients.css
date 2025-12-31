@@ -2,14 +2,9 @@
   width: 375px;
   margin: 0 auto;
 }
-.ingredients-sections {
-  background-color: #f2f6ef;
-}
-.ingred-left {
-  background-color: #f2f6ef;
-}
+
 .ingder-left-title {
-  font-family: 'Bodoni Moda', serif;
+  font-family: var(--second-family);
   font-weight: 300;
   font-size: 40px;
   line-height: 1.2;
@@ -31,8 +26,6 @@
   justify-content: center;
   flex-direction: column;
   gap: 32px;
-}
-.ingder-item {
 }
 /* === DESKTOP === */
 @media only screen and (min-width: 1440px) {
@@ -81,9 +74,6 @@
     display: flex;
     gap: 24px;
     align-items: center;
-  }
-  .ingder-svg {
-    flex-shrink: 0;
   }
   .ingred-txt {
     gap: 8px;
