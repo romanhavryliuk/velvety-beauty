@@ -44,14 +44,10 @@
   gap: 24px;
   width: 343px;
 }
-.about_text {
-}
 .about_divider {
   border: 1px solid #c8d8c0;
   width: 343px;
   height: 0px;
-}
-.about_bottom {
 }
 .about_seen {
   font-family: var(--font-family);
@@ -186,8 +182,6 @@
   color: #f2f6ef;
 }
 .cta-icon {
-  width: 66px;
-  height: 40px;
   fill: #f2f6ef;
 }
 
@@ -205,9 +199,5 @@
   .cta-title {
     font-size: 40px;
     line-height: 1.2;
-  }
-  .cta-icon {
-    width: 66px;
-    height: 40px;
   }
 }
