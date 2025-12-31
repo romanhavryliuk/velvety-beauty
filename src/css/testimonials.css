@@ -1,5 +1,5 @@
 .testimonials {
-    background: #fff;
+    background-color: #fff;
     margin: 0 auto;
     border-bottom: 1px solid #c8d8c0;
 }
@@ -117,6 +117,9 @@
 }
 
 @media only screen and (min-width: 1440px) {
+    .testimonials {
+        background-color: #f2f6ef; 
+    }
     .testimonials-container {
         max-width: 1440px;
         flex-direction: row;
