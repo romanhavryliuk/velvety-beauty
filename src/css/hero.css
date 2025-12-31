@@ -72,9 +72,11 @@
 @media only screen and (min-width: 1440px) {
   .hero {
     width: 1440px;
-    flex-direction: row-reverse;
-    justify-content: flex-end;
+    /* flex-direction: row-reverse; */
+    /* justify-content: flex-end; */
     position: relative;
+    /* position: absolute; */
+    height: 744px;
   }
   .hero-cta {
     padding: 20px 32px;
