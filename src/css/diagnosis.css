@@ -1,0 +1,102 @@
+.diagnosis {
+    background-color: #f2f6ef;
+    border-bottom: 1px solid #c8d8c0;
+}
+
+.diagnosis-container {
+    max-width: 375px;
+    margin: 0 auto;
+    padding: 64px 16px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    gap: 48px;
+}
+
+.diagnosis-box {
+    display: flex;
+    align-items: flex-start;
+    flex-direction: column;
+    gap: 32px;
+}
+
+.diagnosis-content {
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+}
+
+.diagnosis-subtitle {
+    font-family: "Poppins", sans-serif;
+    font-weight: 300;
+    font-size: 24px;
+    line-height: 1.1;
+    color: #899f87;
+}
+
+.diagnosis-title {
+    font-family: serif;
+    font-weight: 300;
+    line-height: 1.2;
+    letter-spacing: 0.01em;
+    color: #213721;
+}
+
+.diagnosis-text {
+    display: none;
+}
+
+.diagnosis-btn {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: row;
+    gap: 8px;
+    background-color: transparent;
+
+    border: 1px solid #213721;
+    padding: 0px 25px;
+    height: 52px;
+
+    font-family: "Poppins", sans-serif;
+    font-size: 16px;
+    color: #213721;
+}
+
+.arrow-icon {
+    color: #213721;
+    display: block;
+}
+
+@media only screen and (min-width: 1440px) {
+    .diagnosis-container {
+        max-width: 1440px;
+        align-items: center;
+        justify-content: space-between;
+        flex-direction: row;
+        gap: 10px;
+
+        padding: 96px 180px;
+    }
+
+    .diagnosis-box {
+        width: 519px;
+    }
+
+    .diagnosis-subtitle {
+        font-size: 28px;
+    }
+
+    .diagnosis-title {
+        font-size: 56px;
+    }
+
+    .diagnosis-text {
+        display: block;
+        font-family: serif;
+        font-weight: 300;
+        color: #3c5e39;
+    }
+
+
+}
