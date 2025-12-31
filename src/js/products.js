@@ -8,6 +8,12 @@ const filterSwiper = new Swiper('.products-filters', {
     slidesOffsetBefore: 0, 
     slidesOffsetAfter: 20, // Невеликий відступ в кінці, щоб остання кнопка не прилипала
     grabCursor: true,
+    breakpoints: {
+        1440: {
+            enabled: false, // Вимикає слайдер, перетворюючи його на звичайний div
+        }
+    }
+    
 });
 
 const filterButtons = document.querySelectorAll('.swiper-slide');
@@ -20,8 +26,7 @@ filterButtons.forEach(button => {
     // 2. Додаємо клас активності саме тій кнопці, на яку натиснули
     this.classList.add('btn-item-active');
     
-    // 3. (Опціонально) Якщо ви використовуєте Swiper, можна додати 
-    // центрування кнопки при кліку:
+    // 3. (Опціонально) Центрування кнопки при кліку:
     filterSwiper.slideTo(Array.from(filterButtons).indexOf(this));
   });
 });
