@@ -2,13 +2,13 @@ button {
   border: none;
   cursor: pointer;
 }
+
 /* === mobile === */
 .wrapper-bg {
   position: absolute;
   background-image: url(/img/hero/bg-hero-mob.webp);
   background-size: cover;
   width: 375px;
-  /* height: 1050px; */
   height: 812px;
   z-index: -10;
 }
@@ -18,9 +18,7 @@ button {
   margin: 0 auto;
 }
 
-/* sad */
 .header-container {
-  /* background-color: rgba(248, 120, 120, 0.3); */
   font-family: 'Poppins', sans-serif;
   font-size: 16px;
   color: #f2f6ef;

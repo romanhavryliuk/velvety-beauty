@@ -1,9 +1,12 @@
 .ingredients {
   width: 375px;
   margin: 0 auto;
-  /* background-color: rgb(224, 170, 103); */
+}
+.ingredients-sections {
+  background-color: #f2f6ef;
 }
 .ingred-left {
+  background-color: #f2f6ef;
 }
 .ingder-left-title {
   font-family: 'Bodoni Moda', serif;
@@ -39,7 +42,7 @@
     gap: 0px;
     width: 1440px;
     position: relative;
-    top: -260px;
+    /* top: -260px; */
   }
   .ingred-left {
     width: 710px;
