@@ -184,7 +184,7 @@ button {
   border: 1px solid #213721;
   width: 335px;
   height: 52px;
-  /* padding: 0px 32px; */
+  margin-bottom: 20px;
 }
 
 /* ==== Sub menu ==== */
