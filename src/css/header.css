@@ -19,7 +19,7 @@ button {
 }
 
 .header-container {
-  font-family: 'Poppins', sans-serif;
+  font-family: var(--font-family);
   font-size: 16px;
   color: #f2f6ef;
   height: 78px;
@@ -65,7 +65,7 @@ button {
 /* ====== Mobile - menu ====== */
 
 .mobile-container {
-  font-family: 'Poppins', sans-serif;
+  font-family: var(--font-family);
   font-size: 16px;
   color: #899f87;
   height: 78px;
@@ -132,7 +132,7 @@ button {
 }
 
 .second-menu {
-  font-family: 'Bodoni Moda', sans-serif;
+  font-family: var(--second-family);
   font-weight: 300;
   font-size: 32px;
   line-height: 1.2;
@@ -162,7 +162,7 @@ button {
   justify-content: space-between;
   align-items: center;
   background-color: transparent;
-  font-family: 'Bodoni Moda', sans-serif;
+  font-family: var(--second-family);
   font-weight: 300;
   font-size: 32px;
   line-height: 1.2;
@@ -176,7 +176,7 @@ button {
 
 .second-login-btn {
   background-color: transparent;
-  font-family: 'Poppins', sans-serif;
+  font-family: var(--font-family);
   font-weight: 400;
   font-size: 16px;
   line-height: 1.4;
@@ -220,7 +220,7 @@ button {
 .page-submenu-link {
   display: block;
   text-decoration: none;
-  font-family: 'Poppins', sans-serif;
+  font-family: var(--font-family);
   font-weight: 400;
   font-size: 16px;
   line-height: 1.4;
@@ -365,7 +365,7 @@ button {
   .pages-menu__item a {
     display: block;
     text-decoration: none;
-    font-family: 'Poppins', sans-serif;
+    font-family: var(--font-family);
     font-weight: 400;
     font-size: 16px;
     line-height: 1.5;
