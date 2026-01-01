@@ -1,5 +1,4 @@
 .diagnosis {
-    background-color: #f2f6ef;
     border-bottom: 1px solid #c8d8c0;
 }
 
@@ -27,7 +26,7 @@
 }
 
 .diagnosis-subtitle {
-    font-family: "Poppins", sans-serif;
+    font-family: var(--font-family);
     font-weight: 300;
     font-size: 24px;
     line-height: 1.1;
@@ -58,14 +57,13 @@
     padding: 0px 25px;
     height: 52px;
 
-    font-family: "Poppins", sans-serif;
+    font-family: var(--font-family);
     font-size: 16px;
     color: #213721;
 }
 
 .arrow-icon {
     color: #213721;
-    display: block;
 }
 
 @media only screen and (min-width: 1440px) {
@@ -97,6 +95,4 @@
         font-weight: 300;
         color: #3c5e39;
     }
-
-
 }

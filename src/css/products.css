@@ -1,5 +1,5 @@
 .products {
-    background-color: #f2f6f0;
+    border-bottom: 1px solid #c8d8c0;
 }
 
 .products-container {
@@ -8,7 +8,6 @@
     justify-content: flex-start;
     flex-direction: column;
     gap: 40px;
-    border-bottom: 1px solid #c8d8c0;
     padding: 64px 16px;
     max-width: 375px;
     margin: 0 auto;
